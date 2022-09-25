@@ -1289,7 +1289,7 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>Base</key>
-				<string></string>
+				<string>_check_monotonic_time</string>
 				<key>Comment</key>
 				<string>Visual - Remove panic on unsynced TSC #1 - 12.0</string>
 				<key>Count</key>
@@ -1297,7 +1297,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>SItwWEw57g+HJAUAAA==</data>
+				<data>McDocvyGAA==</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
@@ -1309,7 +1309,7 @@
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
-				<data>SItwWEw57maQZpBmkA==</data>
+				<data>McBmkGaQkA==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
