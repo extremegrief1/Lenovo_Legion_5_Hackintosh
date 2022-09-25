@@ -8,7 +8,7 @@ DefinitionBlock ("", "SSDT", 2, "CORP", "PNLF", 0x00000000)
         {
             Name (_HID, EisaId ("APP0002"))  // _HID: Hardware ID
             Name (_CID, "backlight")  // _CID: Compatible ID
-            Name (_UID, 0x63)  // _UID: Unique ID
+            Name (_UID, 0x11)  // _UID: Unique ID
             Name (_STA, 0x0B)  // _STA: Status
         }
     }
