@@ -337,7 +337,7 @@
 				<key>Comment</key>
 				<string>GenericUSBXHCI.kext</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/GenericUSBXHCI</string>
 				<key>MaxKernel</key>
