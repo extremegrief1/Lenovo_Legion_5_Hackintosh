@@ -271,11 +271,15 @@
 			<dict>
 				<key>pci-aspm-default</key>
 				<integer>0</integer>
+				<key>device-id</key>
+				<data>nBQAAA==</data>
 			</dict>
 			<key>PciRoot(0x1)/Pci(0x8,0x1)/Pci(0x0,0x4)</key>
 			<dict>
 				<key>pci-aspm-default</key>
 				<integer>0</integer>
+				<key>device-id</key>
+				<data>nBQAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
