@@ -267,6 +267,16 @@
 				<key>built-in</key>
 				<integer>1</integer>
 			</dict>
+			<key>PciRoot(0x1)/Pci(0x8,0x1)/Pci(0x0,0x3)</key>
+			<dict>
+				<key>pci-aspm-default</key>
+				<integer>0</integer>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x8,0x1)/Pci(0x0,0x4)</key>
+			<dict>
+				<key>pci-aspm-default</key>
+				<integer>0</integer>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
