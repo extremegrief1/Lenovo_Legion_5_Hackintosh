@@ -81,17 +81,6 @@
 						<key>comment</key>
 						<string>Internal - Camera 2.0</string>
 					</dict>
-					<key>HSP4</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>name</key>
-						<string>HSP4</string>
-						<key>port</key>
-						<data>BAAAAA==</data>
-						<key>comment</key>
-						<string>Internal - ITE 2.0</string>
-					</dict>
 					<key>SSP5</key>
 					<dict>
 						<key>UsbConnector</key>
