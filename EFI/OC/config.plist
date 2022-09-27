@@ -48,14 +48,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-XHC0.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-XHC0.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-XOSI.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -274,20 +266,6 @@
 			<dict>
 				<key>built-in</key>
 				<integer>1</integer>
-			</dict>
-			<key>PciRoot(0x1)/Pci(0x8,0x1)/Pci(0x0,0x3)</key>
-			<dict>
-				<key>pci-aspm-default</key>
-				<integer>0</integer>
-				<key>#device-id</key>
-				<data>nBQAAA==</data>
-			</dict>
-			<key>PciRoot(0x1)/Pci(0x8,0x1)/Pci(0x0,0x4)</key>
-			<dict>
-				<key>pci-aspm-default</key>
-				<integer>0</integer>
-				<key>#device-id</key>
-				<data>nBQAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1652,7 +1630,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 -liludbgall -dbgenhdbg agdpmod=pikera -utbacpioff</string>
+				<string>-v keepsyms=1 debug=0x100 -liludbgall -dbgenhdbg agdpmod=pikera</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>run-efi-updater</key>
