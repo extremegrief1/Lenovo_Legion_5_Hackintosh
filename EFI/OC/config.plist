@@ -56,14 +56,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-XHC1.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-XHC1.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-XOSI.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -1660,7 +1652,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 -liludbgall -dbgenhdbg agdpmod=pikera -utboff</string>
+				<string>-v keepsyms=1 debug=0x100 -liludbgall -dbgenhdbg agdpmod=pikera -utbacpioff</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>run-efi-updater</key>
@@ -1986,7 +1978,7 @@
 			<key>IgnoreInvalidFlexRatio</key>
 			<false/>
 			<key>ReleaseUsbOwnership</key>
-			<false/>
+			<true/>
 			<key>ReloadOptionRoms</key>
 			<false/>
 			<key>RequestBootVarRouting</key>
