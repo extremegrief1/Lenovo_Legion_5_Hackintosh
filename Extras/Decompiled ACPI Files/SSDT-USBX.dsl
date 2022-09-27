@@ -15,7 +15,7 @@ DefinitionBlock ("", "SSDT", 2, "CORP", "SSDTUSBX", 0x00001000)
                     })
                 }
 
-                Return (Package (0x08)
+                Return (Package (0x0A)
                 {
                     "kUSBSleepPowerSupply", 
                     0x13EC, 
@@ -24,7 +24,9 @@ DefinitionBlock ("", "SSDT", 2, "CORP", "SSDTUSBX", 0x00001000)
                     "kUSBWakePowerSupply", 
                     0x13EC, 
                     "kUSBWakePortCurrentLimit", 
-                    0x0834
+                    0x0834, 
+                    "kUSBSHostControllerDisableUSB3LPM", 
+                    One
                 })
             }
 
