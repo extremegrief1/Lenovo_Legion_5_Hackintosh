@@ -106,7 +106,7 @@
 				</dict>
 			</dict>
 		</dict>
-		<key>XHC1 (Rename to XHC)</key>
+		<key>XHC1</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.dhinakg.USBToolBox.kext</string>
@@ -115,7 +115,7 @@
 			<key>IOMatchCategory</key>
 			<string>USBToolBox</string>
 			<key>IONameMatch</key>
-			<string>XHC</string>
+			<string>XHC1</string>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
 			<key>IOProviderMergeProperties</key>
